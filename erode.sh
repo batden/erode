@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# erode.sh
+# ERODE.SH
 
 # This Bash script will help you cleanly uninstall E24.
 
