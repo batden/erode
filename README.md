@@ -14,9 +14,9 @@ First, clone this repository:
 git clone https://github.com/sensamillion/erode.git .erode
 ```
 
-This creates a new hidden folder named ".erode" in your home directory.
+This creates a new hidden folder named **.erode** in your home directory.
 
-Copy the file "erode.sh" from this new folder to the download folder.
+Copy the file erode.sh from this new folder to the download folder.
 
 Now change to the download folder and make the script executable:
 
