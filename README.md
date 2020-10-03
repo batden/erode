@@ -3,7 +3,7 @@
 
 Please use this script to uninstall enlightenment 24 and related apps.
 
-See also [iggy.sh](https://github.com/sensamillion/iggy)
+See also [iggy.sh](https://github.com/sensamillion/iggy) (installation script)
 
 ## Get started
 
