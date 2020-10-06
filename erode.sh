@@ -409,7 +409,8 @@ uninstall_e24() {
 
   find /usr/local/share/locale/*/LC_MESSAGES 2>/dev/null | while read -r I; do
     echo "$I" |
-      xargs sudo rm -rf $(grep -E 'efl|enlightenment|enventor|ephoto|evisum|libiconv|terminology')
+      xargs sudo rm -rf \
+        $(grep -E 'efl|enlightenment|enventor|ephoto|evisum|libiconv|terminology')
   done
 
   sudo ldconfig
