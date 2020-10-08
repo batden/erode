@@ -6,7 +6,7 @@
 
 # See README.md for instructions on how to use this script.
 
-# erode.sh is written and maintained by batden@sfr.fr and carlasensa@sfr.fr,
+# erode.sh is written and maintained by carlasensa@sfr.fr and batden@sfr.fr,
 # feel free to use this script as you see fit.
 
 ITA="\e[3m"
