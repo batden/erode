@@ -46,7 +46,7 @@ remov_preq() {
       cd .. && rm -rf rlottie
       echo
 
-      cd libavif-$LAVF/build
+      cd $ESRC/libavif-$LAVF/build
       sudo xargs rm -rf <install_manifest.txt
       cd ../.. && rm -rf libavif-$LAVF
 
@@ -71,7 +71,7 @@ remov_preq() {
       cd .. && rm -rf rlottie
       echo
 
-      cd libavif-$LAVF/build
+      cd $ESRC/libavif-$LAVF/build
       sudo xargs rm -rf <install_manifest.txt
       cd ../.. && rm -rf libavif-$LAVF
 
