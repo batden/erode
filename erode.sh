@@ -264,6 +264,8 @@ uninstall_e24() {
   sudo rm -rf wayland-sessions*
 
   cd /usr/local/share/applications
+  sudo sed -i '/ephoto/d' mimeinfo.cache
+  sudo sed -i '/rage/d' mimeinfo.cache
   sudo rm -rf terminology*
   sudo rm -rf elementary*
   sudo rm -rf enventor*
