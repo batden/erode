@@ -15,7 +15,7 @@ OFF="\e[0m"
 
 SCRFLR=$HOME/.iggy
 ICNV=libiconv-1.16
-LAVF=0.8.0
+LAVF=0.8.2
 
 PROG_MN="efl terminology enlightenment ephoto evisum rage"
 PROG_AT="enventor"
