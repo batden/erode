@@ -49,10 +49,12 @@ remov_preq() {
       cd $ESRC/libavif-$LAVF/build
       sudo xargs rm -rf <install_manifest.txt
       cd ../.. && rm -rf libavif-$LAVF
+      echo
 
       cd $ESRC/aom/aom-build
       sudo xargs rm -rf <install_manifest.txt
       cd ../.. && rm -rf aom
+      echo
 
       cd $ESRC/$ICNV
       sudo make uninstall &>/dev/null
@@ -74,10 +76,12 @@ remov_preq() {
       cd $ESRC/libavif-$LAVF/build
       sudo xargs rm -rf <install_manifest.txt
       cd ../.. && rm -rf libavif-$LAVF
+      echo
 
       cd $ESRC/aom/aom-build
       sudo xargs rm -rf <install_manifest.txt
       cd ../.. && rm -rf aom
+      echo
 
       cd $ESRC/$ICNV
       sudo make uninstall &>/dev/null
