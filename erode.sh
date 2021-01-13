@@ -291,6 +291,19 @@ uninstall_e24() {
   cd /usr/local/share/mime/packages
   sudo rm -rf edje.xml
 
+  cd /usr/include
+  sudo rm -rf libinput.h
+  sudo rm -rf wayland-client-core.h
+  sudo rm -rf wayland-client.h
+  sudo rm -rf wayland-client-protocol.h
+  sudo rm -rf wayland-cursor.h
+  sudo rm -rf wayland-server-core.h
+  sudo rm -rf wayland-server.h
+  sudo rm -rf wayland-server-protocol.h
+  sudo rm -rf wayland-util.h
+  sudo rm -rf wayland-version.h
+  sudo rm -rf xkbcommon
+
   cd /usr/lib64
   sudo rm -rf libavif*
   sudo rm -rf libcharset*
