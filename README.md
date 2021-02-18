@@ -3,8 +3,6 @@
 
 Please use this script to uninstall enlightenment 24 and related apps.
 
-## Get started
-
 
 First, clone this repository:
 
@@ -27,14 +25,3 @@ Then issue the following command:
 ```bash
 ./erode.sh
 ```
-
-## Update local repository
-
-
-Change to ~/.erode/ and run:
-
-```bash
-git pull
-```
-
-That's it.
