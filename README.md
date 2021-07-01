@@ -1,7 +1,7 @@
 # erode
 
 
-Please use this script to uninstall enlightenment 24 and related apps.
+**Use this script to uninstall enlightenment 24 and related apps.**
 
 
 First, clone this repository:
