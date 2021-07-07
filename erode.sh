@@ -99,125 +99,125 @@ uninstall_e25() {
   cd /usr/local/etc
   sudo rm -rf enlightenment
 
-  # cd /usr/local/include
-  # sudo rm -rf -- *-1
-  # sudo rm -rf enlightenment
-  # sudo rm -rf rlottie*
+  cd /usr/local/include
+  sudo rm -rf -- *-1
+  sudo rm -rf enlightenment
+  sudo rm -rf rlottie*
 
-  # cd /usr/local/lib64
-  # sudo rm -rf ecore*
-  # sudo rm -rf edje*
-  # sudo rm -rf eeze*
-  # sudo rm -rf efl*
-  # sudo rm -rf efreet*
-  # sudo rm -rf elementary*
-  # sudo rm -rf emotion*
-  # sudo rm -rf enlightenment*
-  # sudo rm -rf enventor*
-  # sudo rm -rf ephoto*
-  # sudo rm -rf ethumb*
-  # sudo rm -rf evas*
-  # sudo rm -rf libecore*
-  # sudo rm -rf libector*
-  # sudo rm -rf libedje*
-  # sudo rm -rf libeet*
-  # sudo rm -rf libeeze*
-  # sudo rm -rf libefl*
-  # sudo rm -rf libefreet*
-  # sudo rm -rf libeina*
-  # sudo rm -rf libeio*
-  # sudo rm -rf libeldbus*
-  # sudo rm -rf libelementary*
-  # sudo rm -rf libelocation*
-  # sudo rm -rf libelput*
-  # sudo rm -rf libelua*
-  # sudo rm -rf libembryo*
-  # sudo rm -rf libemile*
-  # sudo rm -rf libemotion*
-  # sudo rm -rf libenventor*
-  # sudo rm -rf libeo*
-  # sudo rm -rf libeolian*
-  # sudo rm -rf libephysics*
-  # sudo rm -rf libethumb*
-  # sudo rm -rf libevas*
-  # sudo rm -rf libexactness*
-  # sudo rm -rf librlottie*
-  # sudo rm -rf rage*
+  cd /usr/local/lib64
+  sudo rm -rf ecore*
+  sudo rm -rf edje*
+  sudo rm -rf eeze*
+  sudo rm -rf efl*
+  sudo rm -rf efreet*
+  sudo rm -rf elementary*
+  sudo rm -rf emotion*
+  sudo rm -rf enlightenment*
+  sudo rm -rf enventor*
+  sudo rm -rf ephoto*
+  sudo rm -rf ethumb*
+  sudo rm -rf evas*
+  sudo rm -rf libecore*
+  sudo rm -rf libector*
+  sudo rm -rf libedje*
+  sudo rm -rf libeet*
+  sudo rm -rf libeeze*
+  sudo rm -rf libefl*
+  sudo rm -rf libefreet*
+  sudo rm -rf libeina*
+  sudo rm -rf libeio*
+  sudo rm -rf libeldbus*
+  sudo rm -rf libelementary*
+  sudo rm -rf libelocation*
+  sudo rm -rf libelput*
+  sudo rm -rf libelua*
+  sudo rm -rf libembryo*
+  sudo rm -rf libemile*
+  sudo rm -rf libemotion*
+  sudo rm -rf libenventor*
+  sudo rm -rf libeo*
+  sudo rm -rf libeolian*
+  sudo rm -rf libephysics*
+  sudo rm -rf libethumb*
+  sudo rm -rf libevas*
+  sudo rm -rf libexactness*
+  sudo rm -rf librlottie*
+  sudo rm -rf rage*
 
-  # cd /usr/local/lib64/cmake
-  # sudo rm -rf Ecore*
-  # sudo rm -rf Edje*
-  # sudo rm -rf Eet*
-  # sudo rm -rf Eeze*
-  # sudo rm -rf Efl*
-  # sudo rm -rf Efreet
-  # sudo rm -rf Eina*
-  # sudo rm -rf Eio*
-  # sudo rm -rf Eldbus*
-  # sudo rm -rf Elementary*
-  # sudo rm -rf Elua*
-  # sudo rm -rf Emile*
-  # sudo rm -rf Emotion*
-  # sudo rm -rf Eo*
-  # sudo rm -rf Eolian*
-  # sudo rm -rf Emile*
-  # sudo rm -rf Ethumb*
-  # sudo rm -rf Evas*
+  cd /usr/local/lib64/cmake
+  sudo rm -rf Ecore*
+  sudo rm -rf Edje*
+  sudo rm -rf Eet*
+  sudo rm -rf Eeze*
+  sudo rm -rf Efl*
+  sudo rm -rf Efreet
+  sudo rm -rf Eina*
+  sudo rm -rf Eio*
+  sudo rm -rf Eldbus*
+  sudo rm -rf Elementary*
+  sudo rm -rf Elua*
+  sudo rm -rf Emile*
+  sudo rm -rf Emotion*
+  sudo rm -rf Eo*
+  sudo rm -rf Eolian*
+  sudo rm -rf Emile*
+  sudo rm -rf Ethumb*
+  sudo rm -rf Evas*
 
-  # cd /usr/local/lib64/pkgconfig
-  # sudo rm -rf ecore*
-  # sudo rm -rf ector*
-  # sudo rm -rf edje*
-  # sudo rm -rf eet*
-  # sudo rm -rf eeze*
-  # sudo rm -rf efl*
-  # sudo rm -rf efreet*
-  # sudo rm -rf eina*
-  # sudo rm -rf eio*
-  # sudo rm -rf eldbus*
-  # sudo rm -rf elementary*
-  # sudo rm -rf elocation*
-  # sudo rm -rf elua*
-  # sudo rm -rf embryo*
-  # sudo rm -rf emile*
-  # sudo rm -rf emotion*
-  # sudo rm -rf enlightenment*
-  # sudo rm -rf enventor*
-  # sudo rm -rf evisum*
-  # sudo rm -rf eo*
-  # sudo rm -rf eolian*
-  # sudo rm -rf ephoto*
-  # sudo rm -rf ethumb*
-  # sudo rm -rf evas*
-  # sudo rm -rf everything*
-  # sudo rm -rf exactness*
-  # sudo rm -rf rage*
-  # sudo rm -rf rlottie*
-  # sudo rm -rf terminology*
+  cd /usr/local/lib64/pkgconfig
+  sudo rm -rf ecore*
+  sudo rm -rf ector*
+  sudo rm -rf edje*
+  sudo rm -rf eet*
+  sudo rm -rf eeze*
+  sudo rm -rf efl*
+  sudo rm -rf efreet*
+  sudo rm -rf eina*
+  sudo rm -rf eio*
+  sudo rm -rf eldbus*
+  sudo rm -rf elementary*
+  sudo rm -rf elocation*
+  sudo rm -rf elua*
+  sudo rm -rf embryo*
+  sudo rm -rf emile*
+  sudo rm -rf emotion*
+  sudo rm -rf enlightenment*
+  sudo rm -rf enventor*
+  sudo rm -rf evisum*
+  sudo rm -rf eo*
+  sudo rm -rf eolian*
+  sudo rm -rf ephoto*
+  sudo rm -rf ethumb*
+  sudo rm -rf evas*
+  sudo rm -rf everything*
+  sudo rm -rf exactness*
+  sudo rm -rf rage*
+  sudo rm -rf rlottie*
+  sudo rm -rf terminology*
 
-  # cd /usr/local/share
-  # sudo rm -rf dbus*
-  # sudo rm -rf ecore*
-  # sudo rm -rf edje*
-  # sudo rm -rf eeze*
-  # sudo rm -rf efl*
-  # sudo rm -rf efreet*
-  # sudo rm -rf elementary*
-  # sudo rm -rf elua*
-  # sudo rm -rf embryo*
-  # sudo rm -rf emotion*
-  # sudo rm -rf enlightenment*
-  # sudo rm -rf enventor*
-  # sudo rm -rf evisum*
-  # sudo rm -rf eo*
-  # sudo rm -rf eolian*
-  # sudo rm -rf ephoto*
-  # sudo rm -rf ethumb*
-  # sudo rm -rf evas*
-  # sudo rm -rf exactness*
-  # sudo rm -rf rage*
-  # sudo rm -rf terminology*
-  # sudo rm -rf wayland-sessions*
+  cd /usr/local/share
+  sudo rm -rf dbus*
+  sudo rm -rf ecore*
+  sudo rm -rf edje*
+  sudo rm -rf eeze*
+  sudo rm -rf efl*
+  sudo rm -rf efreet*
+  sudo rm -rf elementary*
+  sudo rm -rf elua*
+  sudo rm -rf embryo*
+  sudo rm -rf emotion*
+  sudo rm -rf enlightenment*
+  sudo rm -rf enventor*
+  sudo rm -rf evisum*
+  sudo rm -rf eo*
+  sudo rm -rf eolian*
+  sudo rm -rf ephoto*
+  sudo rm -rf ethumb*
+  sudo rm -rf evas*
+  sudo rm -rf exactness*
+  sudo rm -rf rage*
+  sudo rm -rf terminology*
+  sudo rm -rf wayland-sessions*
 
   cd /usr/local/share/applications
   sudo sed -i '/enlightenment_filemanager/d' mimeinfo.cache
@@ -237,12 +237,12 @@ uninstall_e25() {
   sudo rm -rf evisum.png
   sudo rm -rf terminology.png
 
-  # cd /usr/local/share/man/man1
-  # sudo rm -rf terminology*
-  # sudo rm -rf ty*
+  cd /usr/local/share/man/man1
+  sudo rm -rf terminology*
+  sudo rm -rf ty*
 
-  # cd /usr/local/share/mime/packages
-  # sudo rm -rf edje.xml
+  cd /usr/local/share/mime/packages
+  sudo rm -rf edje.xml
 
   cd /usr/include
   sudo rm -rf libinput.h
