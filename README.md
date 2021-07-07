@@ -1,7 +1,7 @@
 # erode - Work in Progress
 
 
-**Use this script to uninstall enlightenment 24 and related apps.**
+**Use this script to uninstall enlightenment and related apps.**
 
 See also [iggy.sh](https://github.com/sensamillion/iggy)
 
