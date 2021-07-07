@@ -14,7 +14,6 @@ BDR="\e[1;31m"
 OFF="\e[0m"
 
 SCRFLR=$HOME/.iggy
-LAVF=0.9.1
 
 PROG_MN="efl terminology enlightenment ephoto evisum rage express ecrire entice"
 PROG_AT="enventor"
@@ -34,7 +33,7 @@ remov_eprog_mn() {
 remov_preq() {
   if [ -d $ESRC/rlottie ]; then
     echo
-    read -t 12 -p "Remove rlottie, libavif and aom? [Y/n] " answer
+    read -t 12 -p "Remove rlottie? [Y/n] " answer
     case $answer in
     [yY])
       echo
@@ -42,35 +41,15 @@ remov_preq() {
       sudo ninja -C build uninstall &>/dev/null
       cd .. && rm -rf rlottie
       echo
-
-      cd $ESRC/libavif-$LAVF/build
-      sudo xargs rm -rf <install_manifest.txt
-      cd ../.. && rm -rf libavif-$LAVF
-      echo
-
-      cd $ESRC/aom/aom-build
-      sudo xargs rm -rf <install_manifest.txt
-      cd ../.. && rm -rf aom
-      echo
       ;;
     [nN])
-      printf "\n$ITA%s $OFF%s\n\n" "(do not remove prerequisites... OK)"
+      printf "\n$ITA%s $OFF%s\n\n" "(do not remove rlottie.. OK)"
       ;;
     *)
       echo
       cd $ESRC/rlottie
       sudo ninja -C build uninstall &>/dev/null
       cd .. && rm -rf rlottie
-      echo
-
-      cd $ESRC/libavif-$LAVF/build
-      sudo xargs rm -rf <install_manifest.txt
-      cd ../.. && rm -rf libavif-$LAVF
-      echo
-
-      cd $ESRC/aom/aom-build
-      sudo xargs rm -rf <install_manifest.txt
-      cd ../.. && rm -rf aom
       echo
       ;;
     esac
@@ -122,8 +101,6 @@ uninstall_e25() {
 
   # cd /usr/local/include
   # sudo rm -rf -- *-1
-  # sudo rm -rf aom
-  # sudo rm -rf avif
   # sudo rm -rf enlightenment
   # sudo rm -rf rlottie*
 
@@ -186,7 +163,6 @@ uninstall_e25() {
   # sudo rm -rf Emile*
   # sudo rm -rf Ethumb*
   # sudo rm -rf Evas*
-  # sudo rm -rf libavif
 
   # cd /usr/local/lib64/pkgconfig
   # sudo rm -rf ecore*
@@ -282,7 +258,6 @@ uninstall_e25() {
   sudo rm -rf xkbcommon
 
   cd /usr/lib64
-  sudo rm -rf libavif*
   sudo rm -rf libcharset*
   sudo rm -rf libecore*
   sudo rm -rf libector*
