@@ -1,4 +1,4 @@
-# erode - Work in Progress
+# erode
 
 
 **Use this script to uninstall enlightenment and related apps.**
