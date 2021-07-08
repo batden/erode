@@ -102,6 +102,7 @@ uninstall_e25() {
   cd /usr/local/include
   sudo rm -rf -- *-1
   sudo rm -rf enlightenment
+  sudo rm -rf express*
   sudo rm -rf rlottie*
 
   cd /usr/local/lib64
@@ -198,6 +199,7 @@ uninstall_e25() {
   cd /usr/local/share
   sudo rm -rf dbus*
   sudo rm -rf ecore*
+  sudo rm -rf ecrire*
   sudo rm -rf edje*
   sudo rm -rf eeze*
   sudo rm -rf efl*
@@ -207,6 +209,7 @@ uninstall_e25() {
   sudo rm -rf embryo*
   sudo rm -rf emotion*
   sudo rm -rf enlightenment*
+  sudo rm -rf entice*
   sudo rm -rf enventor*
   sudo rm -rf evisum*
   sudo rm -rf eo*
@@ -215,6 +218,7 @@ uninstall_e25() {
   sudo rm -rf ethumb*
   sudo rm -rf evas*
   sudo rm -rf exactness*
+  sudo rm -rf express*
   sudo rm -rf rage*
   sudo rm -rf terminology*
   sudo rm -rf wayland-sessions*
